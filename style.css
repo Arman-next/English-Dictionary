@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gowun Batang;
+}
+body {
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 35%;
+  height: auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.inputword input {
+  width: 25vw;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 0px 20px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.inputword p {
+  font-size: 18px;
+}
+.inputword p span {
+  font-weight: 600;
+}
+.answer {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.item1 {
+  height: 75px;
+  font-size: 29px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.item1 span {
+  font-size: 15px;
+}
+.item {
+  max-height: 100px;
+  font-size: 23px;
+  display: flex;
+  justify-content: flex-start;
+  border-left: 5px solid salmon;
+  border-radius: 5px;
+  padding: 0px 5px;
+  flex-direction: column;
+  text-align: left;
+  overflow-y: scroll;
+}
+.item::-webkit-scrollbar {
+  display: none;
+}
+.item span {
+  font-size: 15px;
+}
+
+.item4 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  border-left: 5px solid salmon;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 23px;
+  height: 75px;
+  overflow-y: scroll;
+}
+.item4::-webkit-scrollbar {
+  display: none;
+}
+.item4 span {
+  font-size: 15px;
+}
+
+.hide {
+  display: none;
+}
